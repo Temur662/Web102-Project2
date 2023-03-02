@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(https://img.freepik.com/free-vector/animals-theme-template-illustration_53876-62836.jpg);
+  background-size: 1355px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px #0000004d;
+  transform-style: preserve-3d;
+  font-weight: 700;
+  height: 250px;
+  cursor: pointer;
+  transition: .15s;
+  transform: perspective(1000px) rotateX(var(--rotate-X, 0));
+  padding: 2em;
+}
+.card .front, .card .back {
+  backface-visibility: hidden;
+}
