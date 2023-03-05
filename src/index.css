@@ -17,16 +17,21 @@ body{
   position: relative;
 }
 
-.flip-card{
-  position: absolute;
+.flipcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
   width: 100%;
   height: 100%;
-  transition: all 0.75s ease;
+  transition: all 0.25s ease;
   transform-style: preserve-3d;
   cursor: pointer;
+  transform: rotateX(var(--rotate-x, 0))
 }
-.flip-card:hover {
-  transform: rotate-X(180deg);
+.flipcard.flip {
+  --rotate-x: 180deg;
   cursor: pointer;
 }
 .front , .back{
