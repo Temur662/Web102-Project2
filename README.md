@@ -13,4 +13,4 @@ Required Features
 [X]Create a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
 [X]Clicking on the card shows the corresponding component of the information pair
 [X]Clicking the next button displays a random new card
-![]{https://github.com/Temur662/Web102-Project2/blob/main/Project2.gif}
+![](https://github.com/Temur662/Web102-Project2/blob/main/Project2.gif)
